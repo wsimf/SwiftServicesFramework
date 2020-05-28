@@ -29,6 +29,7 @@ public enum DefaultCategory: LogCategory {
 		#if canImport(SwiftUI)
 		case .ui(let view): return "ui-\(view)"
 		#endif
+
 		}
 	}
 }

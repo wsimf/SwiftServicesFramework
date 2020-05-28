@@ -1,3 +1,3 @@
-struct SwiftServicesFramework {
-    var text = "Hello, World!"
+public struct SwiftServicesFramework {
+    public var text = "Hello, World!"
 }
